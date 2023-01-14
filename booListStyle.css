@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 10px;
+  padding: 0.5em; /*文字周りの余白*/
+  color: #494949; /*文字色*/
+  background: #fffaf4; /*背景色*/
+  border-left: solid 5px #ffaf58; /*左線（実線 太さ 色）*/
+}
+#searchArea {
+  margin: 10px;
+}
+
+#booksection {
+  display: none;
+  /*background-color: #ffaf58;*/
+}
+#booktable {
+  margin: 0 auto;
+  border-spacing: 0px;
+  /*background-color: #ff58d2;*/
+  width: 1080px;
+}
+
+table tr {
+  padding: 10px;
+  background: #e9faf9;
+  border: solid 1px #778ca3;
+}
+
+table th {
+  padding: 10px;
+  width: 250px;
+  background: #bff3f0;
+  border: solid 1px #778ca3;
+}
+
+table td {
+  padding: 10px;
+  background: #ffffff;
+  border: solid 1px #778ca3;
+}
+#pagerArea {
+  width: 1080px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.page-ul li {
+  display: inline;
+  padding: 10px 15px;
+  border: 1px #ccc solid;
+  color: #000053;
+  border-radius: 5px / 5px;
+}
+.prev,
+.next,
+.pageNumber {
+  cursor: pointer;
+}
+
+.page-ul .this {
+  background-color: #777;
+  color: #fff;
+}

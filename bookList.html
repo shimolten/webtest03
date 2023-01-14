@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOK　一覧</title>
+  </head>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="resetcss.css?20220119007" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="booListStyle.css?20220119012"
+      type="text/css"
+    />
+    <script src="bookSearch.js"></script>
+    <br />
+    <h1>書籍 検索</h1>
+    <br />
+    <div id="searchArea">
+      <input type="text" id="isbnkey" />
+      <button id="sendKey">検索</button>
+    </div>
+    <br />
+    <section id="booksection">
+      <div id="booktable">
+        <table id="boklist" 　class="booktable">
+          <th>書籍名</th>
+          <th>著者</th>
+          <th>出版社</th>
+          <th>表紙</th>
+        </table>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+    </section>
+    <footer></footer>
+  </body>
+</html>
